@@ -1,0 +1,155 @@
+.support-message {
+    width: 100%;
+    height: 126px;
+    display: block;
+    background-color: #4C4E4D;
+}
+
+.support-message-content {
+    display: flex;
+}
+
+.support-message-title {
+    width: 140px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 37px 50px 0 34px;
+}
+
+.support-message-text {
+    width: 580px;
+    line-height: 27px;
+    font-size: 16px;
+    color: var(--white);
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.support-message-btn {
+    width: 142px;
+    height: 86px;
+    color: #45474A;
+    font-size: 15px;
+    padding-left: 28px;
+    padding-right: 50px;
+    line-height: 24px;
+    font-weight: bold;
+    background-color: var(--primary-yellow);
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 4px solid #666;
+    margin-right: 48px;
+}
+
+.support-message-btn:hover {
+    border: 4px solid var(--white);
+}
+
+.close-btn {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.podcast-player{
+    background-color: #F1F3F2;
+}
+
+.podcast-player-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.podcast-player-title{
+    width: 330px;
+    color: #4C4E4D;
+}
+
+.podcast-player-title_title{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.podcast-player-title_p{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 14px;
+
+}
+
+.podcast-player-title_subscribe{
+    width: 107px;
+    height: 32px;
+    display: flex;
+    align-items: start;
+    gap: 4px;
+    padding: 6px 15px;
+    background-color: var(--primary-yellow);
+    font-weight: bold;
+    color: #4C4E4D;
+}
+
+.podcast-player-stub{
+    width: 357px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #626262;
+
+}
+
+.podcast-player-body-eyebrow{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.podcast-player-body-hed{
+    font-size: 12px;
+    color: #4C4E4D;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.podcast-player-body-dek{
+    width: 362px;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 9px;
+}
+
+.waveform{
+    width: 439px;
+    background-color: #F5F6F7;
+}
+
+.waveform-title{
+    font-size: 17px;
+    color: #555;
+}
+
+.waveform-play-btn{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #A3A2EA;
+    border-radius: 50%;
+}
+
+.waveform-play-btn:hover{
+    background-color: #908fc4;
+}
+
+.waveform-play-btn:active{
+    background-color: #acaaf3;
+}
+
